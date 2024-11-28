@@ -1,0 +1,30 @@
+
+
+
+
+Small Goal : 7 days 
+
+Bootstrapping deliveryhub presence online: 
+
+Design: 
+About Page
+Contact Page
+
+Scope : Html, CSS , JavaScript
+Save output in github
+Use Visual Studio Code
+
+===
+Create enviroment for React JS 
+Learn and deploy static page → AWS
+
+=====Nov 28th Plan 
+React JS environment
+Visual Code Setup --< Done >
+Git hub Setup  -->< Done >
+AWS account 
+
+
+
+
+
