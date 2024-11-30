@@ -19,11 +19,20 @@ Create enviroment for React JS
 Learn and deploy static page → AWS
 
 =====Nov 28th Plan 
-React JS environment
+cd 
 Visual Code Setup --< Done >
 Git hub Setup  -->< Done >
 AWS account 
 
+HTML tags
+head,body, heading.h1 to h6, link, 
+menu,list,form,
+css:
+changing background color, footer and header color image settings, text box settings.
+
+======Nov 29th
+created Navigation bar with 3 elemnets and placed them in a row using "flex"
+created hyperlink to navigate to dh storelink.
 
 
 
