@@ -47,6 +47,11 @@ category list should be dynamic.
     1. default selection
     2. On click->it should navigate to particular page
     3. "All" button defults to Home Page.
+--> dh-about.html contains list of categories ( using js objects with id,display ). all buttons are bootstrap buttons.
+Defualt: all is highlighted wiht primary class and other buttons are success (style)
+spaceing between buttons are achieved using me-3 class.
+Thanks to bootstrap.
+
 
 
 

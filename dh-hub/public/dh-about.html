@@ -23,8 +23,8 @@
         }
 
         .input-container img {
-            width: 20px;
-            height: 20px;
+            width: 200px;
+            height: 100px;
             margin-right: 10px;
         }
         .flex-container {
@@ -40,8 +40,15 @@
         }
         </style>
         
-    </head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Bootstrap Example</title>
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <body style="background-color: white;">
+        <!-- Your content here -->
+        <!-- Bootstrap JS Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <h3>Your Local delivery store. Home deively 5pm to 8pm</h3>
         <div class="flex-container">
         <div class="item">
@@ -58,10 +65,65 @@
             
         </div>
        
-     
+    
+    
          <p >
            <img src="DH-Nov24.png" width="1300" height="500">
         </p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo"></p>
+        
+        <script>
+
+
+
+            //document.getElementById("demo1").innerHTML = text;
+
+            //purpose of console in js: for debuggingn purpose 
+            // js example to display array of cars and length of the array.
+
+            // All---GROCERY---Rice--Mahadev
+            const category = ["all", "grocery", "rice", "Maadev Products"];
+            //# https://store13712.store.link/category/grocery
+
+
+            let mytext = ""
+            // js array of objects 
+            const categories = [
+                { id: "all", display: "all" },
+                { id: "grocery", display: "Grocery" },
+                { id: "rice", display: "Rice" },
+                { id: "maadhev", display: "Maadhev Products" },
+            ];
+
+            // for loop
+            for (let i = 0; i < category.length; i++) {
+                //Bootstrap code to dissplay buttons
+                buttonid = categories[i].id
+                hrefl = "location.href='http://store13712.store.link/category/" + buttonid + "'";
+                buttonall = "btn-outline-success";
+                if (buttonid === "all") {
+                    hrefl = "location.href='" + "https://store13712.store.link/" + "'";
+                    buttonall = "btn-outline-primary";
+                }
+                console.log("  URL " + hrefl + "  cat " + category[i]);
+                //templ = '<button type="button" id=' + buttonid + ' ' + 'class="btn btn-lg  ' + buttonall + ' me-3" ' + "onclick=" + hrefl + " > " + categories[i].display + '</button>';
+                //<button type="button" class="btn btn-primary">Primary</button>
+                //<a href="https://example.com" class="btn btn-primary" target="_blank">Go to Example</a>
+                let btnx = `
+                                <button type="button"
+                                        id="${buttonid}"
+                                        class="btn ${buttonall} me-3"
+                                        onclick="${hrefl}" 
+                                        >${categories[i].display} </button>
+                                                                                    `;
+                mytext += btnx;
+                console.log(btnx);
+
+            }
+            document.getElementById("demo2").innerHTML = mytext;
+        </script>
     </body>
 </html>
   
