@@ -33,7 +33,20 @@ changing background color, footer and header color image settings, text box sett
 ======Nov 29th
 created Navigation bar with 3 elemnets and placed them in a row using "flex"
 created hyperlink to navigate to dh storelink.
-
+=====Nov 30th
+1. Learn Bootstrap and update landing page 
+    -> display number of items next to shopping cart
+    -->Learn and implement buttons
+2. Create a bar with list of categories 
+   1. All
+-> when you click on each category it shd href to url of that category
+category list should be dynamic.
+======Dec 1st
+1. create a row of buttons with categories 
+    use Bootstrap to display rounded rectangular button
+    1. default selection
+    2. On click->it should navigate to particular page
+    3. "All" button defults to Home Page.
 
 
 
