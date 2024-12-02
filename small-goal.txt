@@ -51,7 +51,16 @@ category list should be dynamic.
 Defualt: all is highlighted wiht primary class and other buttons are success (style)
 spaceing between buttons are achieved using me-3 class.
 Thanks to bootstrap.
-
+=======Dec 2nd 
+1.install Postgress, Connect to postgress through command line
+2.create a table name:" category"
+3.columns: id, display text:
+ Data::{ id: "all", display: "all" },
+                { id: "grocery", display: "Grocery" },
+                { id: "rice", display: "Rice" },
+                { id: "maadhev", display: "Maadhev Products" },
+4. insert data and fetch data .
+5.Access Postgress data using Javascript.
 
 
 
