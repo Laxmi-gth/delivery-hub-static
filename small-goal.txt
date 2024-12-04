@@ -52,7 +52,7 @@ Defualt: all is highlighted wiht primary class and other buttons are success (st
 spaceing between buttons are achieved using me-3 class.
 Thanks to bootstrap.
 =======Dec 2nd 
-1.install Postgress, Connect to postgress through command line
+1.install Postgress, Connect to postgress through command line--done, installe pg(npm install pg)
 2.create a table name:" category"
 3.columns: id, display text:
  Data::{ id: "all", display: "all" },
@@ -63,4 +63,8 @@ Thanks to bootstrap.
 5.Access Postgress data using Javascript.
 
 
-
+Dec 2nd notes: installed pg(postgress client, connected postgress db using javascript)
+======Dec 3rd
+Practice postgres database
+javascript course
+React JS 
