@@ -68,3 +68,14 @@ Dec 2nd notes: installed pg(postgress client, connected postgress db using javas
 Practice postgres database
 javascript course
 React JS 
+======dec 4th
+-->practice anirban code and do modify more features
+-->dh hub -redesign in react 
+    1. logo, search button, cart in a row
+    2.Image banneer
+    3.Category list buttons
+    4. on click next page about product
+-->concepts of react 
+    1. what is npm
+    2. package.json
+--> watch react youtube vedios 
