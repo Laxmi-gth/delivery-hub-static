@@ -79,3 +79,12 @@ React JS
     1. what is npm
     2. package.json
 --> watch react youtube vedios 
+Questions to Anirban:: 
+ how to write multiple components in one .jsx file
+ ========dec 6th 
+ =====Dec 9th
+ practice hooks useState, useEffect 
+
+
+Practicing postgres sql database
+
